@@ -1,0 +1,11 @@
+# no specs field! It overwrites single case
+
+require:
+  - './registerBabel.js'
+
+exit: true
+#growl: true
+timeout: 30000
+
+exclude:
+  - '**/node_modules/**/*'
